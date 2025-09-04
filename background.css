@@ -1,0 +1,63 @@
+.heads {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.divs {
+  background-color: bisque;
+}
+.ih {
+  text-align: center;
+  color: blue;
+}
+.ima {
+  background-image: url("./cat_img.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.heads {
+  color: blue;
+}
+.bgrepeat {
+  background-image: url(./bird.jfif);
+  background-repeat: repeat-y;
+}
+.contain {
+  background-image: url(./bird.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cover {
+  background-image: url(./bird.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.auto {
+  background-image: url(./bird.jfif);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.size {
+  background-image: url(./bird.jfif);
+  background-size: 390px 300px;
+  background-repeat: no-repeat;
+}
+.multi {
+  background-image: url(./bird.jfif), url(./cat_img.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px 150px, contain;
+}
+.attach {
+  background-attachment: fixed;
+  background-image: url(./cat_img.webp);
+  background-repeat: no-repeat;
+  background-size: 900px 700px;
+}
+.position {
+  background-image: url(./bird.jfif);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: aquamarine;
+}
+.short {
+  background: lightblue url(./cat_img.webp) no-repeat center;
+}

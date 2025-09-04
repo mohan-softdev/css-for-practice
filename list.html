@@ -1,0 +1,47 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        ul {
+          list-style-type: none;
+        }
+        ul li:before {
+          content: "*";
+          margin-right: 10px;
+        }
+        ol {
+          list-style-type: none;
+        }
+        ol li:before {
+          content: counter(list-item) "--> ";
+          counter-increment: list-item;
+          margin-right: 1px;
+        }
+      </style>
+      <style>
+        ul {
+          list-style-type: circle;
+        }
+        ol {
+          list-style-type: upper-alpha;
+        }
+      </style>
+    </head>
+    </head>
+    <body>
+      <h1>CSS Lists Example</h1>
+      <ul>
+        <li>Item </li>
+        <li>Item </li>
+        <li>Item </li>
+      </ul>
+      <ol>
+        <li>list</li>
+        <li>list</li>
+        <li>list </li>
+      </ol>
+    </body>
+    </html>
+    </body>
+    </html>
