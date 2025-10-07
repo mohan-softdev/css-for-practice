@@ -1,0 +1,38 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        .container {
+          width: 400px;
+          border: 1px solid black;
+        }
+
+        .left {
+          float: left;
+          width: 100px;
+          height: 100px;
+          background-color: red;
+        }
+
+        .right {
+          float: right;
+          width: 100px;
+          height: 100px;
+          background-color: blue;
+        }
+
+        .clearfix::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container clearfix">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+    </body>
+    </html>
